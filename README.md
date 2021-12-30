@@ -4,6 +4,10 @@ Code part of course: https://www.linkedin.com/learning/spring-boot-2-0-essential
 
 
 ## Topics
-
+1) Spring Profiles
+2) yaml application properties
 
 ## Tools
+
+### Notes
+* Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
