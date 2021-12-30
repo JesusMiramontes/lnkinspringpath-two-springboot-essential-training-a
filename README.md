@@ -9,6 +9,7 @@ Code part of course: https://www.linkedin.com/learning/spring-boot-2-0-essential
 
 ## Tools
 1) Docker
+2) Thymeleaf
 
 ### Notes
 * Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
