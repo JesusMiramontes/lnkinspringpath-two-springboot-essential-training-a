@@ -6,8 +6,11 @@ Code part of course: https://www.linkedin.com/learning/spring-boot-2-0-essential
 ## Topics
 1) Spring Profiles
 2) yaml application properties
+3) Docker
 
 ## Tools
 
 ### Notes
 * Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
+* **Build docker:** docker build -t booting-web .
+* **Run Docker:** docker run -p 8080:8080 -d booting-web
