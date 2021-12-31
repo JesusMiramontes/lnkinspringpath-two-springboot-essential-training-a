@@ -7,6 +7,10 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
 1) Spring Profiles
 2) yaml application properties
 3) Spring Security
+4) inMemoryAuthentication
+5) passwordEncoder
+6) NoOpPasswordEncoder
+7) 
 
 ## Tools
 1) Docker
