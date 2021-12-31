@@ -35,3 +35,4 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
   6) Set property content_type = text/plain
   7) Set a payload in JSON. Ej:
      1) {"id":"25", "model":"ROOM"}
+* **Access RestAPI:** localhost:8081/api/rest/staffs
