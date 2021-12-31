@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Data
-@NoArgsConstructor
 @Entity
 @Table(name = "EMPLOYEE")
 public class Staff {
