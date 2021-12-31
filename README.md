@@ -20,6 +20,7 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
 4) UUID.randomUUID().toString();
 5) RabbitMQ
 6) spring-boot-starter-data-rest
+7) spring-boot-starter-actuator
 
 ### Notes
 * Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
@@ -36,3 +37,4 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
   7) Set a payload in JSON. Ej:
      1) {"id":"25", "model":"ROOM"}
 * **Access RestAPI:** localhost:8081/api/rest/staffs
+* **Access Actuator details:** http://localhost:8081/actuator/
