@@ -17,7 +17,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         // Create login page.
         // Permit all to login page even if not authenticated.
         // Logout routine
-        http.authorizeRequests().antMatchers("/", "/api/*").permitAll()
+        http.authorizeRequests().antMatchers("/", "/api/*", "/api/rest/*").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
