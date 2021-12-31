@@ -38,3 +38,4 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
      1) {"id":"25", "model":"ROOM"}
 * **Access RestAPI:** localhost:8081/api/rest/staffs
 * **Access Actuator details:** http://localhost:8081/actuator/
+* **Access Custom endpoint:** http://localhost:8081/actuator/greeting
