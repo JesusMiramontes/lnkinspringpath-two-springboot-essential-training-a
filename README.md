@@ -11,6 +11,7 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
 5) passwordEncoder
 6) NoOpPasswordEncoder
 7) Async Payloads
+8) REST Api
 
 ## Tools
 1) Docker
@@ -18,6 +19,7 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
 3) H2 DB
 4) UUID.randomUUID().toString();
 5) RabbitMQ
+6) spring-boot-starter-data-rest
 
 ### Notes
 * Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
