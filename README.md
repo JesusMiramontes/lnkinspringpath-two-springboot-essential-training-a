@@ -10,6 +10,7 @@ Controllers and restcontrollers for a demo hotel app. Statically creates rooms a
 ## Tools
 1) Docker
 2) Thymeleaf
+3) H2 DB
 
 ### Notes
 * Set environment variables as spring.profiles.active for the profile. Ej. spring.profiles.active=dev
