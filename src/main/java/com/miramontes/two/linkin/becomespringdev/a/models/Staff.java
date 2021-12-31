@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -27,5 +28,9 @@ public class Staff {
         this.firstName = firstName;
         this.lastName = lastName;
         this.position = position;
+    }
+
+    public Staff(){
+        this.id = UUID.randomUUID().toString();
     }
 }
